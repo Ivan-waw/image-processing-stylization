@@ -7,6 +7,17 @@ OUTPUT_DIR = "output_images"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+def pencil_sketch(image):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    inverted = cv2.bitwise_not(gray)
+    blurred = cv2.GaussianBlur(inverted, (21, 21), 0)
+
+    def dodge(front, back):
+        return cv2.divide(front, 255 - back, scale=256)
+
+    sketch = dodge(gray, blurred)
+    return sketch
+
 for filename in os.listdir(INPUT_DIR):
     if filename.lower().endswith((".jpg", ".png", ".jpeg")):
         img_path = os.path.join(INPUT_DIR, filename)
@@ -20,7 +31,9 @@ for filename in os.listdir(INPUT_DIR):
 
         gray_filename = "gray_" + filename
         gray_path = os.path.join(OUTPUT_DIR, gray_filename)
-        cv2.imwrite(gray_path, gray)
+        output_path = os.path.join("output_images", f"grayscale_{filename}")
+        cv2.imwrite(output_path, gray)
+
 
         # --- Pixelation ---
         h, w = gray.shape
@@ -36,6 +49,10 @@ for filename in os.listdir(INPUT_DIR):
         pixel_path = os.path.join(OUTPUT_DIR, pixel_filename)
 
         cv2.imwrite(pixel_path, pixelated)
+        
+        sketch = pencil_sketch(image)
+        sketch_path = os.path.join("output_images", f"sketch_{filename}")
+        cv2.imwrite(sketch_path, sketch)
 
 
 
