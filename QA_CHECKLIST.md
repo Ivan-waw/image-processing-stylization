@@ -25,13 +25,13 @@
 - [ ✅] Pixel intensity values correctly represent brightness
 
 ### Pencil Sketch Effect
-- [ ] Edges are clearly visible
-- [ ] Image resembles a sketch drawing
-- [ ] No excessive noise or artifacts
+- [ ✅] Edges are clearly visible
+- [✅ ] Image resembles a sketch drawing
+- [ ✅] No excessive noise or artifacts
 
 ### Duotone Color Mapping
-- [ ] Only two dominant colors present
-- [ ] Color mapping follows grayscale intensity
+- [ ✅] Only two dominant colors present
+- [ ✅] Color mapping follows grayscale intensity
 
 ### Pixelation
 - [ ] Visible block/mosaic effect
