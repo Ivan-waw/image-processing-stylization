@@ -34,19 +34,19 @@
 - [ ✅] Color mapping follows grayscale intensity
 
 ### Pixelation
-- [ ] Visible block/mosaic effect
-- [ ] Fine details reduced
-- [ ] Output image retains original dimensions after upsampling
+- [✅ ] Visible block/mosaic effect
+- [ ✅] Fine details reduced
+- [ ✅] Output image retains original dimensions after upsampling
 
 ### Soft Glow Effect
-- [ ] Highlights enhanced
-- [ ] Blending is smooth (not overexposed)
-- [ ] Output image retains correct resolution
+- [ ✅] Highlights enhanced
+- [ ✅] Blending is smooth (not overexposed)
+- [✅ ] Output image retains correct resolution
 
 ## 5️⃣ Preprocessing Verification
-- [ ] Center square cropping applied
-- [ ] Fixed-size resizing applied
-- [ ] No distortion or unexpected scaling
+- [✅ ] Center square cropping applied
+- [✅ ] Fixed-size resizing applied
+- [ ✅] No distortion or unexpected scaling
 
 ## 6️⃣ Program Stability
 - [ ] Program runs without crashing
