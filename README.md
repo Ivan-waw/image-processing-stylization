@@ -1,7 +1,3 @@
-Here’s a clean, polished **README.md** ready for your GitHub repo. Just copy-paste this into your `README.md` file.
-
----
-
 # 🖼️ Image Processing Stylization
 
 ## 📌 Overview
