@@ -135,5 +135,3 @@ The system allows selecting a final technique for comparison against the origina
 This project demonstrates a structured and reproducible workflow for image processing. Images are first normalized through cropping and resizing, then processed using six core techniques: grayscale conversion, Gaussian blur, pixelation, Canny edge detection, binary thresholding, and pencil sketch stylization.
 
 The modular pipeline design ensures consistency, clarity in results, and scalability for future incorporation of additional techniques.
-
----
