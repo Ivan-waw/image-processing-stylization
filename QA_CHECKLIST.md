@@ -21,8 +21,8 @@
 ## 4️⃣ Technique Verification
 
 ### Grayscale Conversion
-- [ ] Image is truly black & white
-- [ ] Pixel intensity values correctly represent brightness
+- [✅ ] Image is truly black & white
+- [ ✅] Pixel intensity values correctly represent brightness
 
 ### Pencil Sketch Effect
 - [ ] Edges are clearly visible
