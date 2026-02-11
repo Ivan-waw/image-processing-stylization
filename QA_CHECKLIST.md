@@ -49,13 +49,13 @@
 - [ ✅] No distortion or unexpected scaling
 
 ## 6️⃣ Program Stability
-- [ ] Program runs without crashing
-- [ ] Handles multiple images correctly
-- [ ] Optional: All pytest tests pass (if available)
+- [✅ ] Program runs without crashing
+- [✅] Handles multiple images correctly
+- [ ✅] Optional: All pytest tests pass (if available)
 
 ## 7️⃣ Optional Extras
-- [ ] Add screenshots of outputs for reference
-- [ ] Record any bugs or inconsistencies in outputs
+- [ ✅] Add screenshots of outputs for reference
+- [ ✅] Record any bugs or inconsistencies in outputs
 
 ### 🐞 Bugs / Notes
-- [ ] …
+- [✅ ] No Bugs. All outputs were verified manually and automatically, and all tests passed.
